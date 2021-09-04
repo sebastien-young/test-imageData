@@ -1,0 +1,5 @@
+In file included from main.cpp:1:
+crow_all.h: In member function ‘boost::asio::io_service& crow::SocketAdaptor::get_io_service()’:
+crow_all.h:3353:28: error: ‘boost::asio::ip::tcp::socket’ {aka ‘class boost::asio::basic_stream_socket<boost::asio::ip::tcp>’} has no member named ‘get_io_service’
+ 3353 |             return socket_.get_io_service();
+      |                            ^~~~~~~~~~~~~~
